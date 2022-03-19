@@ -214,7 +214,11 @@ h1, h2, h3, h4, h5, h6 {
 #hero .hero-container {
   position: relative;
   z-index: 2;
-  min-width: 300px;
+  /*min-width: 320px;*/
+  margin-top: -50px;
+  width:  380px;
+  top: 0%;
+  left:  11%;
 }
 #hero h1 {
   margin: 0 0 10px 0;
@@ -372,6 +376,16 @@ section {
   display: block;
   background: none;
   border-radius: 0;
+}
+.skills-title {
+  margin-top: 16px;
+  margin-bottom: 5px;
+  font-size:  18px;
+  font-family: "Poppins", sans-serif;
+}
+.skills-content {
+  font-size:  18px;
+  font-family: "Poppins", sans-serif;
 }
 .skills .progress .skill {
   padding: 0;
